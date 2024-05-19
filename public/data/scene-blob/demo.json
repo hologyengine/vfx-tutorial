@@ -1,0 +1,6 @@
+{
+  "id": "uuvu76i94",
+  "name": "demo",
+  "sceneId": "uuvu76i94",
+  "data": "[{\"id\":\"auto-sky\",\"name\":\"Sky\",\"type\":\"sky\",\"position\":[0,0,0],\"scale\":[1,1,1],\"rotation\":[0,0,0],\"collisionDetection\":false,\"sky\":{\"materialId\":null}},{\"id\":\"auto-global-fog\",\"name\":\"Global fog\",\"type\":\"global_fog\",\"position\":[0,0,0],\"scale\":[1,1,1],\"rotation\":[0,0,0],\"collisionDetection\":false,\"fog\":{\"type\":\"density\",\"color\":\"#b8f8ff\",\"density\":0.005,\"near\":100,\"far\":1000}},{\"id\":\"c3c179bd-b31b-4958-8e6e-d300f599c284\",\"name\":\"EmitterActor\",\"position\":[-20.058746350210743,-9.688914045948375e-15,35.634989686957866],\"scale\":[1,1,1],\"rotation\":[0,0,0,\"XYZ\"],\"type\":\"actor\",\"actor\":{\"type\":\"EmitterActor\",\"innerParams\":[],\"params\":{\"vfx\":{\"type\":20,\"value\":\"9c144732-2a10-4791-b9f4-f70e0a3b647d\"}}}},{\"id\":\"37ed41a3-edfa-4887-aa25-9543b52b5bca\",\"name\":\"Landscape\",\"position\":[0,0,0],\"scale\":[1,1,1],\"rotation\":[0,0,0,\"XYZ\"],\"type\":\"shape_mesh\",\"collisionDetection\":true,\"materialAssignments\":[],\"castShadow\":true,\"receiveShadow\":true,\"shape\":\"landscape\",\"landscape\":{\"options\":{\"sectionSize\":100,\"sections\":{\"x\":4,\"y\":4},\"density\":40},\"heightMaps\":[]},\"grass\":{\"layers\":[]}}]"
+}

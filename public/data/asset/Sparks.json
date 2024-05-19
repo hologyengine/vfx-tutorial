@@ -1,0 +1,159 @@
+{
+  "name": "Sparks",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "8hwcnuzns",
+        "name": "Emitter",
+        "rate": {
+          "type": "continuous",
+          "count": 8,
+          "time": 0.2
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "15bhjb7wa",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": 1
+              }
+            }
+          },
+          {
+            "id": "9f7syce46",
+            "type": "scale",
+            "params": {
+              "scale": {
+                "value": "0.04",
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "o2loltlpx",
+            "type": "positionSphere",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  0,
+                  0
+                ],
+                "type": 8
+              },
+              "radius": {
+                "value": 0.5,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "p69rd4axx",
+            "type": "velocity",
+            "params": {
+              "velocity": {
+                "value": [
+                  0,
+                  10.1,
+                  0
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "6v91uf5rx",
+            "type": "randomDirection",
+            "params": {
+              "speed": {
+                "value": 4.1,
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "o8p8o9ugr",
+            "type": "changeColor",
+            "params": {
+              "a": {
+                "value": "#ffef85",
+                "type": 10
+              },
+              "b": {
+                "value": "#ffa424",
+                "type": 10
+              },
+              "ease": {
+                "value": "OutCubic",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "6d7kr2260",
+            "type": "changeOpacity",
+            "params": {
+              "a": {
+                "value": 1,
+                "type": 1
+              },
+              "b": {
+                "value": 0,
+                "type": 1
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "0hvg0aijg",
+            "type": "randomDrift",
+            "params": {
+              "drift": {
+                "value": [
+                  0.4,
+                  0.4,
+                  0.4
+                ],
+                "type": 8
+              },
+              "delay": {
+                "value": 0,
+                "type": 1
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "sprite",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal"
+        }
+      }
+    ]
+  },
+  "id": "9c144732-2a10-4791-b9f4-f70e0a3b647d"
+}
